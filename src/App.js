@@ -1,12 +1,16 @@
-import React from 'react';
-import './App.css';
+import React, { Component,Fragment } from 'react';
+import './style/App.css';
+import MyLayout  from "./components/MyLayout";
 
-function App() {
-  return (
-    <div className="App">
-      123
-    </div>
-  );
+class App extends Component {
+  state = {  }
+  render() { 
+    return ( 
+      <Fragment>
+        <MyLayout></MyLayout>
+      </Fragment>
+     );
+  }
 }
-
+ 
 export default App;
